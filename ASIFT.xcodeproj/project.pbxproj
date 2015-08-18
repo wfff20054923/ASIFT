@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AADCBA471B8174DA004A76CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AADCBA461B8174DA004A76CB /* main.cpp */; };
+		AADCBA551B8175CF004A76CB /* compute_asift_keypoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AADCBA4E1B8175CF004A76CB /* compute_asift_keypoints.cpp */; };
+		AADCBA561B8175CF004A76CB /* compute_asift_matches.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AADCBA501B8175CF004A76CB /* compute_asift_matches.cpp */; };
+		AADCBA571B8175CF004A76CB /* demo_ASIFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AADCBA521B8175CF004A76CB /* demo_ASIFT.cpp */; };
+		AADCBA581B8175CF004A76CB /* demo_lib_sift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AADCBA531B8175CF004A76CB /* demo_lib_sift.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,13 @@
 
 /* Begin PBXFileReference section */
 		AADCBA431B8174DA004A76CB /* ASIFT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ASIFT; sourceTree = BUILT_PRODUCTS_DIR; };
-		AADCBA461B8174DA004A76CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AADCBA4E1B8175CF004A76CB /* compute_asift_keypoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = compute_asift_keypoints.cpp; sourceTree = "<group>"; };
+		AADCBA4F1B8175CF004A76CB /* compute_asift_keypoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compute_asift_keypoints.h; sourceTree = "<group>"; };
+		AADCBA501B8175CF004A76CB /* compute_asift_matches.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = compute_asift_matches.cpp; sourceTree = "<group>"; };
+		AADCBA511B8175CF004A76CB /* compute_asift_matches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compute_asift_matches.h; sourceTree = "<group>"; };
+		AADCBA521B8175CF004A76CB /* demo_ASIFT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = demo_ASIFT.cpp; sourceTree = "<group>"; };
+		AADCBA531B8175CF004A76CB /* demo_lib_sift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = demo_lib_sift.cpp; sourceTree = "<group>"; };
+		AADCBA541B8175CF004A76CB /* demo_lib_sift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo_lib_sift.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,13 @@
 		AADCBA451B8174DA004A76CB /* ASIFT */ = {
 			isa = PBXGroup;
 			children = (
-				AADCBA461B8174DA004A76CB /* main.cpp */,
+				AADCBA4E1B8175CF004A76CB /* compute_asift_keypoints.cpp */,
+				AADCBA4F1B8175CF004A76CB /* compute_asift_keypoints.h */,
+				AADCBA501B8175CF004A76CB /* compute_asift_matches.cpp */,
+				AADCBA511B8175CF004A76CB /* compute_asift_matches.h */,
+				AADCBA521B8175CF004A76CB /* demo_ASIFT.cpp */,
+				AADCBA531B8175CF004A76CB /* demo_lib_sift.cpp */,
+				AADCBA541B8175CF004A76CB /* demo_lib_sift.h */,
 			);
 			path = ASIFT;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AADCBA471B8174DA004A76CB /* main.cpp in Sources */,
+				AADCBA551B8175CF004A76CB /* compute_asift_keypoints.cpp in Sources */,
+				AADCBA571B8175CF004A76CB /* demo_ASIFT.cpp in Sources */,
+				AADCBA581B8175CF004A76CB /* demo_lib_sift.cpp in Sources */,
+				AADCBA561B8175CF004A76CB /* compute_asift_matches.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
